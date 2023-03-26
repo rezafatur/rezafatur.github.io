@@ -618,6 +618,10 @@ section .section-title {
   .skills-section .section-title {
     font-size: 20px;
   }
+
+  .skills-section .skills-content {
+    margin-bottom: 20px;
+  }
 }
 
 /* Resume */
@@ -687,6 +691,10 @@ section .section-title {
 @media screen and (max-width: 768px) {
   .resume-section .section-title {
     font-size: 20px;
+  }
+
+  .resume-section .resume-content {
+    margin-bottom: 20px;
   }
 }
 
@@ -828,6 +836,16 @@ section .section-title {
   position: absolute;
   bottom: -10px;
   left: 93px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section .section-title {
+    font-size: 20px;
+  }
+
+  .contact-section .contact-content {
+    margin-bottom: 20px;
+  }
 }
 
 /* Footer */
